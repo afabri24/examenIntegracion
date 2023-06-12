@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<xs:schema>
+    <xs:element name="SumaRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="num1" type="xs:int" />
+                <xs:element name="num2" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SumaResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="resultado" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+     <xs:element name="RestaRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="num1" type="xs:int" />
+                <xs:element name="num2" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="RestaResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="resultado" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+     <xs:element name="MultiplicacionRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="num1" type="xs:int" />
+                <xs:element name="num2" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="MultiplicacionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="resultado" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
